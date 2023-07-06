@@ -27,6 +27,7 @@
 .contect-text {
     position: absolute;
     text-align: center;
+    color: #414141;
 
     line-height: 60px;
     top: 33%;

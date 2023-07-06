@@ -1,27 +1,17 @@
-section {
-    background-image: url('images/my-picture.jpg');
+#contect {
+   background-image: url('./images/my-picture.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
-#contect {
+.contect-content {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.662);
+    background-image: linear-gradient(180deg, #fbc2ebea 0%, #a6c0eef1 100%);
     backdrop-filter: blur(6px);
     position: relative;
-}
-.contect-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(236, 236, 236, 0.429);
-    backdrop-filter: blur(6px);
 }
 .big-picture {
     width: 150px;
@@ -29,52 +19,72 @@ section {
     position: absolute;
     border-radius: 50%;
     border: 3px solid #fff;
-    top: 18%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
 }
 .contect-text {
     position: absolute;
+    text-align: center;
+
+    line-height: 60px;
     top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 30px;
+}
+.contect-text h2 {
+  font-weight:400;
+}
+.contect-text p {
+  font-size: 1.5rem;
 }
 .contect-link {
     position: absolute;
-    top: 65%;
+    top: 63%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 30px;    
+    transform: translate(-50%,-50%);   
     display: flex;
     flex-direction: column;
-    line-height: 60px;
-
 }
-.contect-link a {
-    border-radius: 5px;
-    margin-block: 10px;
-    text-decoration: none;
-    color: black;
-    width: 350px;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-    font-weight:bolder;
-    letter-spacing: 3px;
-    padding-inline: 20px;
+.box {
+  position: relative;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 5px 3px 5px #5252524a;
+  width: 300px;
+  border-radius: 20px;
+  padding: 12px;
+  margin-block: 10px;
 }
-.contect-link .logo-position {
+.box i {
   position: absolute;
+  top: 50%;
   left: 8%;
-  top: 8%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
 }
+.box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #000000;
+}
+
 .btn-link {
-  
     transition: .2s;
 }
 .btn-link:hover {
   transform: scale(1.1);
+}
+@media (min-width:520px){
+
+}
+@media (min-width:720px){
+  .box {
+    width: 450px;
+  }
 }
 
 

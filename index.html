@@ -3,31 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contect</title>
+    <title>My-Contect</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="contact-style.css">
+    <link rel="stylesheet" href="./contact-style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section>
-        <div id="contect">
-            <div class="contect-content">
-                <div class="big-picture">
-                    <img src="../images/my-picture.jpg" alt="">
+    <section id="contect" class="wow bounceInLeft" data-wow-duration=".5s">
+        <div class="contect-content">
+            <div class="wow fadeIn big-picture" data-wow-delay="0.1s" data-wow-duration=".5s">
+                <img src="../images/my-picture.jpg" alt="">
+            </div>
+            <div class="contect-text">
+                <h2 class="wow fadeIn" data-wow-delay="0.2s" data-wow-duration=".5s">@Zhuang_Jun_kai</h2>
+                <p class="wow fadeIn" data-wow-delay="0.4s" data-wow-duration=".5s">我的聯絡方式</p>
+            </div>
+            <div class="contect-link">
+                <div class="wow fadeIn box btn-link" data-wow-delay="0.6s" data-wow-duration=".5s">
+                    <i class="fa-brands fa-line" style="color: #6aff06;"></i>
+                    <a href="https://line.me/ti/p/EeWpQ7ef-e" class="btn-link"> Line</a>
                 </div>
-                <div class="contect-text">
-                    <p>KingKaiZhuang</p>
+                <div class="wow fadeIn box btn-link" data-wow-delay="0.8s" data-wow-duration=".5s">
+                    <i class="fa-brands fa-facebook" style="color: #0683ff;"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100002212333597" class="btn-link">Facebook</a>    
                 </div>
-                <div class="contect-link">
-                    <a href="https://line.me/ti/p/EeWpQ7ef-e" class="btn-link"><i class="fa-brands fa-line" style="color: #6aff06;"></i> Line</a>
-                    <a href="https://www.facebook.com/profile.php?id=100002212333597" class="btn-link"><i class="fa-brands fa-facebook" style="color: #0683ff;"></i> Facebook</a>
-                    <a href="https://instagram.com/zhuang_jun_kai?igshid=OGQ5ZDc2ODk2ZA==" class="btn-link"><i class="fa-brands fa-instagram" style="color: #ff94c6;"></i> IG</a>
-                    <a href="https://github.com/KingKaiZhuang" class="btn-link"><i class="fa-brands fa-github" style="color: #4d5d70;"></i> Github</a>
+                <div class="wow fadeIn box btn-link" data-wow-delay="1s" data-wow-duration=".5s">
+                    <a href="https://instagram.com/zhuang_jun_kai?igshid=OGQ5ZDc2ODk2ZA==" class="btn-link">IG</a>
+                    <i class="fa-brands fa-instagram" style="color: #ff94c6;"></i>
+                </div>
+                <div class="wow fadeIn box btn-link" data-wow-delay="1.2s" data-wow-duration=".5s">
+                    <a href="https://github.com/KingKaiZhuang" class="btn-link">Github</a>
+                    <i class="fa-brands fa-github" style="color: #4d5d70;"></i>
                 </div>
             </div>
-        </div>        
+        </div>    
     </section>
-
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

@@ -25,7 +25,7 @@
   position: absolute;
   border-radius: 50%;
   border: 3px solid #fff;
-  top: 13%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
@@ -37,7 +37,7 @@
   color: #414141;
 
   line-height: 60px;
-  top: 33%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -52,7 +52,7 @@
 
 .contect-link {
   position: absolute;
-  top: 60%;
+  top: 63%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -67,7 +67,7 @@
   border-radius: 20px;
   padding-inline: 12px;
   padding-block: 10px;
-  margin-block: 10px;
+  margin-block: 15px;
 }
 
 .box i {
